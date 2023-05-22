@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестовое задание</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Fonts Poppins and Roboto-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+    <div class="image-container">
+
+        <!--Header сайта-->
+        <header class="header container">
+            <a href="index.html" class="logo"></a>
+        </header>
+
+
+        <!--Блок main-->
+        <main class="main container">
+
+            <h1 class="header-under">Under Construction</h1>
+            <p class="subheader-under">We're making lots of improvements and will be back soon</p>
+
+
+
+            <div id="timer"> </div>
+
+            <div class="pictures">
+                <div class="days"></div>
+                <div class="hours"></div>
+                <div class="minutes"></div>
+                <div class="seconds"></div>
+            </div>
+
+
+            <p>Check our event page when you wait:</p>
+
+            <a href="https://learn.javascript.ru/settimeout-setinterval" class="btn-event">Go to the event</a>
+
+
+        </main>
+
+
+        <!--Footer сайта-->
+        <div class="footer container">
+
+            <div id="blackout">
+                <div id="popup">
+                    <h1 class="header-succes">SUCCESS!</h1>
+                    <p class="subheader-succes">You have successfully subscribed to the email newsletter</p>
+                    <a href="#" class="close">Close</a>
+                </div>
+            </div>
+
+            <!--Для отправки на сервер пишем так: <form method="post" id="subscription-form" action="#blackout" class="row">-->
+            <form action="#blackout">
+                <!--Вместо этой строки.-->
+
+                <!--Для отправки на сервер пишем так: <input id="email" type="email" placeholder="Enter your Email and get notified" />-->
+                <input type="email" placeholder="Enter your Email and get notified" />
+                <!--Вместо этой строки.-->
+
+                <!--Просто кнопка, открывающая popup, не отправляет ничего на сервер-->
+                <button>→</button>
+            </form>
+
+            <a href="#" class="other-events">Other Events</a>
+
+        </div>
+
+
+    </div>
+
+
+
+
+    <script src="script.js "></script>
+</body>
+
+
+</html>
